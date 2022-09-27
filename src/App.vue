@@ -1,11 +1,23 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
-</template>
+  <div id="global-container">
 
+    <router-view/>
+
+  </div>
+
+  <!--  <router-view/>-->
+</template>
+<script>
+import HomeHeader from "@/components/HomeHeader";
+import Home from "@/views/Home";
+
+export default {
+  components: {HomeHeader, Home},
+  setup() {
+  },
+
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
