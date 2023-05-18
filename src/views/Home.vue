@@ -3,43 +3,43 @@
     <HomeHeader/>
     <!-- 点餐分类部分 -->
     <ul class="foodtype radius-border">
-      <li @click="toBusinessList('food')">
+      <li @click="toBusinessList('美食')">
         <img src="@/assets/dcfl01.png">
         <p>美食</p>
       </li>
-      <li @click="toBusinessList('breakfast')">
+      <li @click="toBusinessList('早餐')">
         <img src="@/assets/dcfl02.png">
         <p>早餐</p>
       </li>
-      <li @click="toBusinessList('run')">
+      <li @click="toBusinessList('跑腿代购')">
         <img src="@/assets/dcfl03.png">
         <p>跑腿代购</p>
       </li>
-      <li onclick="location.href='businessList.html'">
+      <li onclick="location.href='汉堡披萨'">
         <img src="@/assets/dcfl04.png">
         <p>汉堡披萨</p>
       </li>
-      <li onclick="location.href='businessList.html'">
+      <li onclick="location.href='甜品饮品'">
         <img src="@/assets/dcfl05.png">
         <p>甜品饮品</p>
       </li>
-      <li onclick="location.href='businessList.html'">
+      <li onclick="location.href='速食简餐'">
         <img src="@/assets/dcfl06.png">
         <p>速食简餐</p>
       </li>
-      <li onclick="location.href='businessList.html'">
+      <li onclick="location.href='地方小吃'">
         <img src="@/assets/dcfl07.png">
         <p>地方小吃</p>
       </li>
-      <li onclick="location.href='businessList.html'">
+      <li onclick="location.href='米粉面馆'">
         <img src="@/assets/dcfl08.png">
         <p>米粉面馆</p>
       </li>
-      <li onclick="location.href='businessList.html'">
+      <li onclick="location.href='包子粥铺'">
         <img src="@/assets/dcfl09.png">
         <p>包子粥铺</p>
       </li>
-      <li onclick="location.href='businessList.html'">
+      <li onclick="location.href='炸鸡炸串'">
         <img src="@/assets/dcfl10.png">
         <p>炸鸡炸串</p>
       </li>
@@ -48,7 +48,7 @@
       <div class="divider">
         <el-divider content-position="center"><span style="color: #999999">为您推荐附近的商家</span></el-divider>
       </div>
-      <BusinessList type="food"></BusinessList>
+      <BusinessList type=""></BusinessList>
     </div>
 
     <!--  &lt;!&ndash; 超级会员部分 &ndash;&gt;-->

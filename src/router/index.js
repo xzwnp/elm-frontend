@@ -8,6 +8,7 @@ import Login from "@/views/Login";
 import Paying from "@/views/Paying";
 import Orders from "@/views/Orders";
 import Mine from "@/views/Mine";
+
 const routes = [
     {
         path: '/',
@@ -50,7 +51,7 @@ const routes = [
         path: '/orderList',
         name: 'orderList',
         component: Orders
-    },{
+    }, {
         path: '/user',
         name: 'user',
         component: Mine

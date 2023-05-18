@@ -1,0 +1,63 @@
+/*.vwClass {*/
+/*    width: 30vw;*/
+/*    height: 20vh;*/
+/*    background-color: blue;*/
+/*    color: #FFF;*/
+/*    font-size: 5vw;*/
+/*}*/
+
+#app {
+    /*color: red;*/
+    /*display: flex;*/
+    /*!*是行优先还是列优先*!*/
+    /*flex-direction: row;*/
+    /*!*弹性模型的换行相关配置*!*/
+    /*!*默认为nowrap:如果子元素太大,会缩小子元素*!*/
+    /*flex-wrap: nowrap;*/
+    /*!*flex-wrap: wrap;   wrap:换行 子元素太大,会换行,可以用于商品显示*!*/
+    /*!*子元素水平居中显示*!*/
+    /*justify-content: center;*/
+
+}
+
+#global-container {
+    width: 100vw;
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    /*解决指定了height为100vh,实际长度远大于100vh的方法找到了
+    overflow: hidden*/
+    overflow: hidden;
+}
+
+.tabbar-container {
+    /*置顶,优先级最高*/
+    z-index: 999;
+}
+
+.radius-border {
+    border: 2px;
+    border-radius: 3vw;
+    overflow: hidden;
+}
+
+.small-font {
+    color: #666666;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 3vw;
+}
+
+
+/*通用颜色
+饿了么蓝: #02b6fd;
+高级灰: #666666;
+浅灰: #999999;
+*/
+
+.price {
+  color: red;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
